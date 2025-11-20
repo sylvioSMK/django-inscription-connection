@@ -1,0 +1,52 @@
+/* Custom styles for solid color theme */
+body.bg-light {
+  background-color: #f7fafc; /* light neutral */
+}
+
+.container-custom {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  border-color: #0b5ed7;
+}
+
+.btn-success {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-success:hover {
+  background-color: #157347;
+  border-color: #157347;
+}
+
+/* Card header */
+.card-header {
+  background-color: #f1f5f9;
+  font-weight: 600;
+}
+
+/* Flash messages mapping for bootstrap alert classes */
+.alert-info { background-color: #e7f3ff; color: #084298; }
+.alert-success { background-color: #e6ffed; color: #0f5132; }
+.alert-error, .alert-danger { background-color: #fff0f0; color: #842029; }
+
+@media (max-width: 576px) {
+  .container-custom { padding: 16px; }
+}
